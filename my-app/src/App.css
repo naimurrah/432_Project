@@ -1,0 +1,77 @@
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+  height: 20vh;
+  margin-bottom: 5vh;
+}
+
+.hero h1{
+  font-size: 3.5em;
+
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.notePlusOthers{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-right: 0.5vw;
+}
+
+.note{
+  background-color: rgb(176, 175, 175);
+  height: 20vh;
+  margin-bottom: 0.5vh;
+  border-radius: 15px;
+}
+
+
+.photoBioContacts {
+  background-color: rgb(176, 175, 175);
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5vh;
+  border-radius: 15px;
+
+}
+
+.todo {
+  background-color: rgb(176, 175, 175);
+  width: 40%;
+  height: 41vh;
+  margin-left: 0.5vw;
+  border-radius: 15px;
+
+}
+
+.photoBioContacts img{
+  width: 10vw;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
